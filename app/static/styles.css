@@ -1,0 +1,102 @@
+/* styles.css */
+/* Earlier styles for the poll page */
+body {
+    background-color: lightblue;
+}
+
+.poll-box {
+    background-color: lightpurple;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.choice-box {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choice-box.python {
+    background-color: lightgreen;
+}
+
+.choice-box.javascript {
+    background-color: lightcoral;
+}
+
+.choice-box.selected {
+    cursor: not-allowed;
+}
+
+.choice-text {
+    font-weight: bold;
+}
+
+.choice-percentage {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.result {
+    display: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* New styles for the root route */
+body.root {
+    background-color: skyblue;
+    text-align: center;
+}
+
+.centered-text {
+    text-align: center; /* Center the text */
+    max-width: 300px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.centered-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.centered-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.centered-text a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.centered-text a:hover {
+    background-color: lightblue;
+}

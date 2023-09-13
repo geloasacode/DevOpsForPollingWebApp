@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ poll['question'] }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="poll-box">
+        <h1 class="center-text">{{ poll['question'] }}</h1>
+        <div class="choice-box python" data-choice="0">
+            <div class="choice-text">Python</div>
+            <div class="choice-percentage">0%</div>
+        </div>
+        <div class="choice-box javascript" data-choice="1">
+            <div class="choice-text">JavaScript</div>
+            <div class="choice-percentage">0%</div>
+        </div>
+        <div class="result-container">
+            <div id="result" class="result hidden">100%</div>
+        </div>
+    </div>
+    
+    <!-- Reference the external JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
