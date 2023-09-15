@@ -1,6 +1,6 @@
 # Dockerized Simple Polling Application Deployed in Amazon Public ECR
 
-This repository contains a Python web application that has been dockerized and uploaded to Amazon Elastic Container Registry (ECR). The application can be pulled from ECR and run on any compatible machine, such as an Amazon EC2 instance.
+This repository contains a Python web application that has been dockerized and uploaded to Amazon Elastic Container Registry (ECR). The application can be pulled from ECR and can run on any compatible machine, and in this example, on an Amazon EC2 instance.
 
 ## Application Overview
 
@@ -28,7 +28,7 @@ The Polling App is a simple web application built with Flask that allows users t
 ## Steps to Run the Application
 
 1. **Pull the Image from ECR:**
-   Run the following command to authenticate Docker with your ECR registry and pull the docker image:
+   Run the following command to pull the docker image:
 
    ```bash
    docker pull public.ecr.aws/d7s2f1j0/flask-polling-app:latest
