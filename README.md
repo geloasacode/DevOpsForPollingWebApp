@@ -54,5 +54,4 @@ The Polling App is a simple web application built with Flask that allows users t
 
 - This is a simplified example for educational purposes.
 - Ensure proper security group settings to allow traffic on the required ports.
-- AWS credentials and permissions must be configured correctly for ECR access.
 - Remember to clean up resources when they are no longer needed.
