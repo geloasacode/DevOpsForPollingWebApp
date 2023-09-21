@@ -1,3 +1,5 @@
+![Overview](PollingApp.png)
+
 # Dockerized Simple Polling Application Deployed in Amazon Public ECR
 
 This repository contains a Python web application that has been dockerized and uploaded to Amazon Elastic Container Registry (ECR). The application can be pulled from ECR and can run on any compatible machine, and in this example, on an Amazon EC2 instance.
